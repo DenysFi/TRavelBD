@@ -283,6 +283,8 @@ h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 0.625rem;
+  max-width: 16.3125rem;
+  min-width: 15.25rem;
   border-radius: 0.5rem;
   background-color: transparent;
   max-height: 3.5625rem;
@@ -1325,7 +1327,7 @@ h6 {
 }
 
 .no-webp .subscribe{
-  background: url("../img/subscribe/bg.jpg") center no-repeat; }
+  background: url("../img/subscribe/bg.jpg") center/cover no-repeat; }
 
 .subscribe {
   background-size: cover;
@@ -2094,10 +2096,6 @@ h6 {
 }
 
 @media (min-width: 120em) {
-  .select-detail summary {
-    width: 16.3125rem;
-  }
-
   .content-hero__follow {
     margin-right: -11.8125rem;
   }
@@ -4051,20 +4049,6 @@ h6 {
 }
 }
 
-@media (min-width: 50.625em) and (max-width: 120em) {
-@supports (width: clamp( 12.5rem , 9.7179054054rem  +  5.4954954955vw , 16.3125rem )) {
-    .select-detail summary {
-      width: clamp( 12.5rem , 9.7179054054rem  +  5.4954954955vw , 16.3125rem );
-    }
-}
-
-@supports not (width: clamp( 12.5rem , 9.7179054054rem  +  5.4954954955vw , 16.3125rem )) {
-    .select-detail summary {
-      width: calc(12.5rem + 3.8125 * (100vw - 50.625rem) / 69.375);
-    }
-}
-}
-
 @media (min-width: 100.625em) and (max-width: 120em) {
 @supports (margin-right: clamp( -11.8125rem , 26.5100806452rem  +  -31.935483871vw , -5.625rem )) {
     .content-hero__follow {
@@ -4295,4 +4279,4 @@ h6 {
 
 .webp .hero{ background: url(../img/header/bg.webp) center/cover no-repeat; }
 
-.webp .subscribe{ background: url(../img/subscribe/bg.webp) center no-repeat; }
+.webp .subscribe{ background: url(../img/subscribe/bg.webp) center/cover no-repeat; }
