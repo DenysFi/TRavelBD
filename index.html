@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20231113215649">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/icons/logo.svg" alt="">
+				</div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__items">
+							<li class="menu__item">
+								<a href="#" class="menu__link">HOME</a>
+							</li>
+							<li data-goto=".destination" class="menu__item">
+								<a href="#" class="menu__link">DESTINATION</a>
+							</li>
+							<li data-goto=".about" class="menu__item">
+								<a href="#" class="menu__link">ABOUT</a>
+							</li>
+							<li data-goto=".tour" class="menu__item">
+								<a href="#" class="menu__link">TOUR</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">CONTACTS</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">SIGN IN</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+
+		<main class="page">
+			<section data-watch data-watch-threshold="0.2" class="hero">
+				<div class="hero__container">
+					<div class="hero__content content-hero">
+						<div class="content-hero__body">
+							<div class="content-hero__block-header block-header">
+								<h3 class="block-header__title block-header__title--white">Lifelong memories just a few seconds away</h3>
+								<div class="block-header__comment block-header__comment--special">
+									Let’s start your journey with us, your dream will come true
+								</div>
+							</div>
+							<div class="content-hero__follow">
+								<div class="content-hero__staffs">
+									<h5 class="content-hero__label">Follow us</h5>
+									<a href="#" class="content-hero__link"><img src="img/icons/instagram.svg" alt=""></a>
+									<a href="#" class="content-hero__link"> <img src="img/icons/twitter.svg" alt=""></a>
+
+								</div>
+							</div>
+						</div>
+						<a href="#" class="content-hero__explore">EXPLORE NOW</a>
+					</div>
+					<div class="hero__media media-hero">
+						<h4 class="media-hero__title">The most famous tour spots in BD</h4>
+						<div class="media-hero__cards">
+							<div class="media-hero__card card-media">
+								<figure class="card-media__video">
+									<div class="card-media__wrapper">
+										<video>
+											<source src="img/videos/01.MP4" type="video/mp4">
+											Ваш браузер не поддерживает видео.
+										</video>
+										<div class="card-media__button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+												<path d="M45 22.3352C45 28.2479 42.6295 33.9184 38.4099 38.0993C34.1903 42.2802 28.4674 44.629 22.5 44.629C16.5326 44.629 10.8097 42.2802 6.5901 38.0993C2.37053 33.9184 0 28.2479 0 22.3352C0 16.4225 2.37053 10.752 6.5901 6.57109C10.8097 2.39019 16.5326 0.0413818 22.5 0.0413818C28.4674 0.0413818 34.1903 2.39019 38.4099 6.57109C42.6295 10.752 45 16.4225 45 22.3352ZM19.0969 14.2342C18.8866 14.0858 18.6392 13.9977 18.3817 13.9794C18.1242 13.9612 17.8667 14.0135 17.6372 14.1306C17.4077 14.2477 17.2152 14.4252 17.0808 14.6435C16.9464 14.8618 16.8752 15.1126 16.875 15.3684V29.302C16.8752 29.5578 16.9464 29.8086 17.0808 30.0269C17.2152 30.2452 17.4077 30.4227 17.6372 30.5398C17.8667 30.6569 18.1242 30.7092 18.3817 30.691C18.6392 30.6727 18.8866 30.5846 19.0969 30.4362L28.9406 23.4694C29.1229 23.3405 29.2715 23.1703 29.374 22.9731C29.4765 22.7758 29.53 22.5571 29.53 22.3352C29.53 22.1133 29.4765 21.8946 29.374 21.6973C29.2715 21.5001 29.1229 21.3299 28.9406 21.201L19.0969 14.2342Z" style="mix-blend-mode:luminosity" />
+											</svg>
+										</div>
+										<input type="range" class="card-media__video-progress" value="0" step="1" min="0" max="100">
+									</div>
+									<figcaption>Saint Martin</figcaption>
+								</figure>
+							</div>
+							<div class="media-hero__card card-media">
+								<figure class="card-media__video">
+									<div class="card-media__wrapper">
+										<video>
+											<source src="img/videos/02.mp4" type="video/mp4">
+											Ваш браузер не поддерживает видео.
+										</video>
+										<div class="card-media__button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+												<path d="M45 22.3352C45 28.2479 42.6295 33.9184 38.4099 38.0993C34.1903 42.2802 28.4674 44.629 22.5 44.629C16.5326 44.629 10.8097 42.2802 6.5901 38.0993C2.37053 33.9184 0 28.2479 0 22.3352C0 16.4225 2.37053 10.752 6.5901 6.57109C10.8097 2.39019 16.5326 0.0413818 22.5 0.0413818C28.4674 0.0413818 34.1903 2.39019 38.4099 6.57109C42.6295 10.752 45 16.4225 45 22.3352ZM19.0969 14.2342C18.8866 14.0858 18.6392 13.9977 18.3817 13.9794C18.1242 13.9612 17.8667 14.0135 17.6372 14.1306C17.4077 14.2477 17.2152 14.4252 17.0808 14.6435C16.9464 14.8618 16.8752 15.1126 16.875 15.3684V29.302C16.8752 29.5578 16.9464 29.8086 17.0808 30.0269C17.2152 30.2452 17.4077 30.4227 17.6372 30.5398C17.8667 30.6569 18.1242 30.7092 18.3817 30.691C18.6392 30.6727 18.8866 30.5846 19.0969 30.4362L28.9406 23.4694C29.1229 23.3405 29.2715 23.1703 29.374 22.9731C29.4765 22.7758 29.53 22.5571 29.53 22.3352C29.53 22.1133 29.4765 21.8946 29.374 21.6973C29.2715 21.5001 29.1229 21.3299 28.9406 21.201L19.0969 14.2342Z" style="mix-blend-mode:luminosity" />
+											</svg>
+										</div>
+										<input type="range" class="card-media__video-progress" value="0" step="1" min="0" max="100">
+									</div>
+									<figcaption>Cox’s Bazar</figcaption>
+								</figure>
+							</div>
+							<div class="media-hero__card card-media">
+								<figure class="card-media__video">
+									<div class="card-media__wrapper">
+										<video>
+											<source src="img/videos/03.mp4" type="video/mp4">
+											Ваш браузер не поддерживает видео.
+										</video>
+										<div class="card-media__button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+												<path d="M45 22.3352C45 28.2479 42.6295 33.9184 38.4099 38.0993C34.1903 42.2802 28.4674 44.629 22.5 44.629C16.5326 44.629 10.8097 42.2802 6.5901 38.0993C2.37053 33.9184 0 28.2479 0 22.3352C0 16.4225 2.37053 10.752 6.5901 6.57109C10.8097 2.39019 16.5326 0.0413818 22.5 0.0413818C28.4674 0.0413818 34.1903 2.39019 38.4099 6.57109C42.6295 10.752 45 16.4225 45 22.3352ZM19.0969 14.2342C18.8866 14.0858 18.6392 13.9977 18.3817 13.9794C18.1242 13.9612 17.8667 14.0135 17.6372 14.1306C17.4077 14.2477 17.2152 14.4252 17.0808 14.6435C16.9464 14.8618 16.8752 15.1126 16.875 15.3684V29.302C16.8752 29.5578 16.9464 29.8086 17.0808 30.0269C17.2152 30.2452 17.4077 30.4227 17.6372 30.5398C17.8667 30.6569 18.1242 30.7092 18.3817 30.691C18.6392 30.6727 18.8866 30.5846 19.0969 30.4362L28.9406 23.4694C29.1229 23.3405 29.2715 23.1703 29.374 22.9731C29.4765 22.7758 29.53 22.5571 29.53 22.3352C29.53 22.1133 29.4765 21.8946 29.374 21.6973C29.2715 21.5001 29.1229 21.3299 28.9406 21.201L19.0969 14.2342Z" style="mix-blend-mode:luminosity" />
+											</svg>
+										</div>
+										<input type="range" class="card-media__video-progress" value="0.00" step="1" min="0" max="100.00">
+									</div>
+									<figcaption> Ratargul Forest</figcaption>
+								</figure>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section data-watch data-watch-threshold="0.2" class="about">
+				<div class="about__container">
+					<div class="about__content">
+						<div class="about__block-header block-header">
+							<h3 class="block-header__title">About us</h3>
+							<div class="block-header__comment">
+								The best travel agency for you
+							</div>
+							<div class="block-header__text">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. In elementum sit libero, placerat
+									nibh facilisis in rutrum. Risus, gravida purus nunc
+									suspendisse. Sit elementum mi, netus in sit. Massa
+									posuere ac auctor quis elementum.
+								</p>
+							</div>
+						</div>
+						<div class="about__more">
+							<a href="#" class="about__link">Read more about us</a>
+						</div>
+					</div>
+					<div class="about__image">
+						<picture><source srcset="img/about/01.webp" type="image/webp"><img src="img/about/01.jpg" alt=""></picture>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="services">
+				<div class="services__container">
+					<div class="services__block-header block-header">
+						<h3 class="block-header__title">Our services</h3>
+						<div class="block-header__comment">
+							We help our clients throughout the trip
+						</div>
+					</div>
+					<div class="services__body">
+						<ul class="services__items">
+							<li class="services__item item-services">
+								<div class="item-services__icon">
+									<img src="img/services/01.svg" alt="">
+								</div>
+								<h3 class="item-services__title">DESTINATIONS</h3>
+								<div class="item-services__text">
+									<p>
+										Choose any destination
+										you like, we have several
+										country ratings
+									</p>
+								</div>
+							</li>
+							<li class="services__item item-services">
+								<div class="item-services__icon">
+									<img src="img/services/02.svg" alt="">
+								</div>
+								<h3 class="item-services__title">TOURS</h3>
+								<div class="item-services__text">
+									<p>
+										A large number of tours
+										to different countries for
+										one or a family
+									</p>
+								</div>
+							</li>
+							<li class="services__item item-services">
+								<div class="item-services__icon">
+									<img src="img/services/03.svg" alt="">
+								</div>
+								<h3 class="item-services__title">LUXURY HOTEL</h3>
+								<div class="item-services__text">
+									<p>
+										Lorem ipsum dolor sit amet,
+										consectetur adipiscing elit.
+									</p>
+								</div>
+							</li>
+							<li class="services__item item-services">
+								<div class="item-services__icon">
+									<img src="img/services/04.svg" alt="">
+								</div>
+								<h3 class="item-services__title">ASSISTANCE</h3>
+								<div class="item-services__text">
+									<p>
+										We are ready to solve all
+										your questions and help
+										to deal with problems
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="search">
+				<div class="search__container">
+					<div class="search__label">Where you want to go?</div>
+					<form action="#" class="search__form form-search">
+						<input type="text" class="form-search__where" placeholder="Where to go?">
+						<select data-custom-select name="date" class="form-search__select">
+							<option value="" disabled selected>Date</option>
+							<option value="Jan 31 2023">January 31 2023</option>
+						</select>
+						<select data-custom-select name="type" class="form-search__travel-type">
+							<option value="" disabled selected>Travel Type</option>
+							<option value="bus">On Bus</option>
+							<option value="Plane">On Plane</option>
+							<option value="bus">On Bus</option>
+							<option value="Plane">On Plane</option>
+							<option value="Plane">On Plane</option>
+							<option value="Plane">On Plane</option>
+							<option value="Plane">On Plane</option>
+							<option value="Plane">On Plane</option>
+						</select>
+						<button type="submit" class="form-search__button">Search</button>
+					</form>
+				</div>
+			</section>
+			<section data-watch class="destination">
+				<div class="destination__container">
+					<div class="destination__block-header block-header">
+						<h3 class="block-header__title">Our Destination</h3>
+						<div class="block-header__comment">
+							Choose your next destination
+						</div>
+					</div>
+					<div class="destination__cards">
+						<article class="destination__card card">
+							<div class="card__content">
+								<div class="card__cost">100$</div>
+								<h3 class="card__title">Saint Martin</h3>
+							</div>
+							<div class="card__image">
+								<picture><source srcset="img/destinations/01.webp" type="image/webp"><img src="img/destinations/01.jpg" alt=""></picture>
+								<a href="#" class="card__link"></a>
+							</div>
+						</article>
+						<article class="destination__card card">
+							<div class="card__content">
+								<div class="card__cost">100$</div>
+								<h3 class="card__title">Saint Martin</h3>
+							</div>
+							<div class="card__image">
+								<picture><source srcset="img/destinations/02.webp" type="image/webp"><img src="img/destinations/02.jpg" alt=""></picture>
+								<a href="#" class="card__link"></a>
+							</div>
+						</article>
+						<article class="destination__card card">
+							<div class="card__content">
+								<div class="card__cost">100$</div>
+								<h3 class="card__title">Saint Martin</h3>
+							</div>
+							<div class="card__image">
+								<picture><source srcset="img/destinations/03.webp" type="image/webp"><img src="img/destinations/03.jpg" alt=""></picture>
+								<a href="#" class="card__link"></a>
+							</div>
+						</article>
+						<article class="destination__card card">
+							<div class="card__content">
+								<div class="card__cost">100$</div>
+								<h3 class="card__title">Saint Martin</h3>
+							</div>
+							<div class="card__image">
+								<picture><source srcset="img/destinations/04.webp" type="image/webp"><img src="img/destinations/04.jpg" alt=""></picture>
+								<a href="#" class="card__link"></a>
+							</div>
+						</article>
+						<article class="destination__card card">
+							<div class="card__content">
+								<div class="card__cost">100$</div>
+								<h3 class="card__title">Saint Martin</h3>
+							</div>
+							<div class="card__image">
+								<picture><source srcset="img/destinations/05.webp" type="image/webp"><img src="img/destinations/05.jpg" alt=""></picture>
+								<a href="#" class="card__link"></a>
+							</div>
+						</article>
+						<article class="destination__card card">
+							<div class="card__content">
+								<div class="card__cost">100$</div>
+								<h3 class="card__title">Saint Martin</h3>
+							</div>
+							<div class="card__image">
+								<picture><source srcset="img/destinations/06.webp" type="image/webp"><img src="img/destinations/06.jpg" alt=""></picture>
+								<a href="#" class="card__link"></a>
+							</div>
+						</article>
+					</div>
+					<div class="destination__pagination pagination">
+						<div class="pagination__total">Total 10 pages</div>
+						<div class="pagination__arrow-left"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="14" viewBox="0 0 21 14" fill="none">
+								<path d="M7 14L8.23375 12.7663L3.35125 7.875L21 7.875L21 6.125L3.35125 6.125L8.2425 1.2425L7 -6.11959e-07L-3.0598e-07 7L7 14Z" fill="#040E27" />
+							</svg></div>
+						<ul class="pagination__list">
+							<li class="pagination__item "><a href="#" class="pagination__link pagination__link--active">1</a></li>
+							<li class="pagination__item "><a href="#" class="pagination__link">2</a> </li>
+							<li class="pagination__item "><a href="#" class="pagination__link">3</a></li>
+							<li class="pagination__item "><a href="#" class="pagination__link">4</a></li>
+							<li class="pagination__item "><a href="#" class="pagination__link">5</a></li>
+							<li class="pagination__item "><a href="#" class="pagination__link">6</a></li>
+							<li class="pagination__item "><a href="#" class="pagination__link">7</a></li>
+							<li class="pagination__item "><a href="#" class="pagination__link">8</a></li>
+							<li class="pagination__item "><a href="#" class="pagination__link">9</a></li>
+							<li class="pagination__item "><a href="#" class="pagination__link">10</a></li>
+						</ul>
+						<div class="pagination__arrow-right">
+							<svg xmlns="http://www.w3.org/2000/svg" width="21" height="14" viewBox="0 0 21 14" fill="none">
+								<path d="M7 14L8.23375 12.7663L3.35125 7.875L21 7.875L21 6.125L3.35125 6.125L8.2425 1.2425L7 -6.11959e-07L-3.0598e-07 7L7 14Z" fill="#040E27" />
+							</svg>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section data-watch class="subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__content">
+						<h4 class="subscribe__title">Subscribe Our Newsletter</h4>
+						<div class="subscribe__comment">
+							Subscribe our newsletter to get offers and about
+							new places to discover.
+						</div>
+					</div>
+					<form action="#" class="subscribe__form form-subscribe">
+						<div class="form-subscribe__body">
+							<input data-required="email" data-validate data-errorinsert=".form-subscribe, last" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Your Mail" class="form-subscribe__input">
+							<button type="submit" class="form-subscribe__button">Subscribe</button>
+						</div>
+					</form>
+				</div>
+			</section>
+			<section data-watch class="reviews">
+				<div class="reviews__container">
+					<div class="reviews__block-header block-header">
+						<h3 class="block-header__title">Reviews</h3>
+						<div class="block-header__comment block-header__comment--medium">
+							We always ask our clients to leave hones reviews,
+							on the basis of which you can make a choice
+						</div>
+					</div>
+					<article class="reviews__body">
+						<div class="reviews__content">
+							<div class="reviews__user user-reviews">
+								<div class="user-reviews__avatar">
+									<picture><source srcset="img/reviews/avatar.webp" type="image/webp"><img src="img/reviews/avatar.jpg" alt=""></picture>
+								</div>
+								<div class="user-reviews__body">
+									<h3 class="user-reviews__name">Rakib Rahman</h3>
+									<p class="user-reviews__age">25 y.o</p>
+								</div>
+							</div>
+							<div class="reviews__tour tour-reviews">
+								<h5 class="tour-reviews__title"><span>Tour:</span>cox’s bazar</h5>
+								<ul class="tour-reviews__thumbs">
+									<li class="tour-reviews__thumb"><picture><source srcset="img/reviews/thumb01.webp" type="image/webp"><img src="img/reviews/thumb01.jpg" alt=""></picture></li>
+									<li class="tour-reviews__thumb"><picture><source srcset="img/reviews/thumb02.webp" type="image/webp"><img src="img/reviews/thumb02.jpg" alt=""></picture></li>
+								</ul>
+							</div>
+							<div class="reviews__rating rating-reviews">
+								<ul class="rating-reviews__list">
+									<li class="rating-reviews__item">
+										<div class="rating-reviews__label">assistance</div>
+										<div class="rating-reviews__scale"><span></span></div>
+										<div class="rating-reviews__value">100%</div>
+									</li>
+									<li class="rating-reviews__item">
+										<div class="rating-reviews__label">tour quality</div>
+										<div class="rating-reviews__scale"><span></span></div>
+										<div class="rating-reviews__value">95%</div>
+									</li>
+									<li class="rating-reviews__item">
+										<div class="rating-reviews__label">hotel</div>
+										<div class="rating-reviews__scale"><span></span></div>
+										<div class="rating-reviews__value">85%</div>
+									</li>
+									<li class="rating-reviews__item">
+										<div class="rating-reviews__label">overall rating: </div>
+										<div class="rating-reviews__score">
+											5
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="reviews__text">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu phasellus faucibus neque fusce nunc in. Posuere lectus adipiscing netus massa enim, arcu ut. Arcu arcu nunc suspendisse fermentum. Nunc dictumst pharetra sed.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu phasellus faucibus neque fusce nunc in.
+							</p>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section data-watch class="trips">
+				<div class="trips__container">
+					<div class="trips__block-header block-header">
+						<h3 class="block-header__title">Our Recent Trips</h3>
+					</div>
+					<div class="trips__recent-trips">
+						<article class="trips__recent-trip trip-recent">
+							<article class="trip-recent__card card">
+								<div class="card__content">
+									<h3 class="card__title">Saint Martin</h3>
+								</div>
+								<div class="card__image">
+									<picture><source srcset="img/destinations/01.webp" type="image/webp"><img src="img/destinations/01.jpg" alt=""></picture>
+									<a href="#" class="card__link"></a>
+								</div>
+							</article>
+							<div class="trip-recent__date">
+								october 19, 2021
+							</div>
+							<a href="#" class="trip-recent__title">Lorem ipsum dolor sit amet, consectet
+								adipiscing elit.</a>
+						</article>
+						<article class="trips__recent-trip trip-recent">
+							<article class="trip-recent__card card">
+								<div class="card__content">
+									<h3 class="card__title">Saint Martin</h3>
+								</div>
+								<div class="card__image">
+									<picture><source srcset="img/destinations/02.webp" type="image/webp"><img src="img/destinations/02.jpg" alt=""></picture>
+									<a href="#" class="card__link"></a>
+								</div>
+							</article>
+							<div class="trip-recent__date">
+								october 19, 2021
+							</div>
+							<a href="#" class="trip-recent__title">Lorem ipsum dolor sit amet, consectet
+								adipiscing elit.
+							</a>
+						</article>
+						<article class="trips__recent-trip trip-recent">
+							<article class="trip-recent__card card">
+								<div class="card__content">
+									<h3 class="card__title">Saint Martin</h3>
+								</div>
+								<div class="card__image">
+									<picture><source srcset="img/destinations/03.webp" type="image/webp"><img src="img/destinations/03.jpg" alt=""></picture>
+									<a href="#" class="card__link"></a>
+								</div>
+							</article>
+							<div class="trip-recent__date">
+								october 19, 2021
+							</div>
+							<a href="#" class="trip-recent__title">Lorem ipsum dolor sit amet, consectet
+								adipiscing elit.</a>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<img src="img/icons/logo.svg" alt="">
+				</div>
+				<div class="footer__main">
+					<ul class="footer__list">
+						<li class="footer__item item-footer">
+							<div data-spollers="767" class="item-footer__spollers ">
+								<details class="item-footer__content">
+									<summary class="item-footer__title">About travelers</summary>
+									<div class="item-footer__body">
+										<div class="item-footer__text">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla faucibus consectetur in. Curabitur eu, nunc suspe ndisse duis malesuada. Netus viverra amet montes, rutrum vel pretium. Purus orci nunc morbi dolor. Quis aenean aliquam. </p>
+										</div>
+									</div>
+								</details>
+							</div>
+							<div data-da=".footer__main, 767.98" class="item-footer__icons">
+								<a href="#" class="item-footer__icon">
+									<img src="img/icons/fb-white.svg" alt="">
+								</a>
+								<a href="#" class="item-footer__icon">
+									<img src="img/icons/twitter-white.svg" alt="">
+								</a>
+								<a href="#" class="item-footer__icon">
+									<img src="img/icons/insta-white.svg" alt="">
+								</a>
+							</div>
+						</li>
+						<li class="footer__item item-footer">
+							<div data-spollers="767" class="item-footer__spollers ">
+								<details class="item-footer__content">
+									<summary class="item-footer__title">Navigations</summary>
+									<div class="item-footer__body">
+										<nav class="item-footer__nav">
+											<div class="item-footer__column">
+												<ul class="item-footer__items">
+													<li data-goto=".about" class="item-footer__item"><a href="#" class="item-footer__link">About Us</a></li>
+													<li class="item-footer__item"><a href="#" class="item-footer__link">Privacy policy</a></li>
+													<li class="item-footer__item"><a href="#" class="item-footer__link">Contact us</a></li>
+													<li class="item-footer__item"><a href="#" class="item-footer__link">Discounts</a></li>
+												</ul>
+											</div>
+											<div class="item-footer__column">
+												<ul class="item-footer__items">
+													<li data-goto=".hero" class="item-footer__item"><a href="#" class="item-footer__link">Home</a></li>
+													<li data-goto=".destination" class="item-footer__item"><a href="#" class="item-footer__link">Destination</a></li>
+													<li data-goto=".services" class="item-footer__item"><a href="#" class="item-footer__link">Services</a></li>
+													<li data-goto=".about" class="item-footer__item"><a href="#" class="item-footer__link">About</a></li>
+												</ul>
+											</div>
+										</nav>
+									</div>
+								</details>
+							</div>
+						</li>
+						<li class="footer__item item-footer">
+							<div data-spollers="767" class="item-footer__spollers ">
+								<details class="item-footer__content">
+									<summary class="item-footer__title">Subscribe newsletter</summary>
+									<div class="item-footer__body">
+										<div class="item-footer__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.
+											</p>
+										</div>
+									</div>
+								</details>
+							</div>
+							<form action="#" class="item-footer__form">
+								<div class="item-footer__form-body">
+									<input data-required="email" data-validate data-errorInsert=".item-footer__form,     last" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Enter email" class="item-footer__input">
+									<button type="submit" class="item-footer__button">Subscribe</button>
+								</div>
+
+							</form>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__basement">Tour Landing page by <span>ashraful</span><strong>© All Rights Reserved. 2021</strong></div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231113215649"></script>
+</body>
+
+</html>
